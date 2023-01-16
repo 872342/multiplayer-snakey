@@ -1,0 +1,52 @@
+*,body, html { margin: 0; padding: 0; box-sizing: border-box;}
+body, html{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  background-color: rgb(40, 40, 40);
+}
+
+#code {
+  color:white;
+  position: absolute;
+  top:0;
+}
+
+#players {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  margin: 1em;
+}
+
+#game {
+  border: 1px solid rgb(177, 177, 177);
+  background-color: rgb(70, 70, 70);
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+
+
+
+#btncontainer{
+  display: flex;
+  flex-direction: row;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+#join {
+  padding:1em;
+}
+#color{
+  margin:0em;
+  height:55px;
+}
